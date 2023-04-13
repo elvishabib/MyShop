@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container-fluid{
+  width:  85%;
+  margin:auto;
+}
+.product{
+  margin-top: 100px;
+}
+
+
+.img-hover-zoom {
+
+  overflow: hidden; 
+}
+
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+
+.logo{
+  width: 60px;
+  margin-right: 30px;
+}
+.profile{
+  margin-left: 20px;
+  color: black;
+}
+
+.card{
+  padding:2%;
+  border:none;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-price{
+  color:grey;
+  font-weight: 700;
+}
+
+.card h5{
+  font-size: 0.9rem;
+}
+
+.search-button{
+  margin-right : 40px;
+}
+
+/* PROFILE */
+
+.picture-profile-index img{
+  width: 60px;
+  border-radius: 30%;
+  margin-left: 20px;
+  
+}
